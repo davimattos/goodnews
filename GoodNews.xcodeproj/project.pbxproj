@@ -13,6 +13,10 @@
 		832128402A8707F20068745F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8321283F2A8707F20068745F /* Assets.xcassets */; };
 		832128432A8707F20068745F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832128412A8707F20068745F /* LaunchScreen.storyboard */; };
 		8321284C2A8708310068745F /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321284B2A8708310068745F /* NewsListTableViewController.swift */; };
+		832692552A8944D500DFB079 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832692542A8944D500DFB079 /* Webservice.swift */; };
+		832692582A8949C600DFB079 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832692572A8949C600DFB079 /* Article.swift */; };
+		8326925B2A894C5C00DFB079 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8326925A2A894C5C00DFB079 /* ArticleViewModel.swift */; };
+		8326925E2A89506300DFB079 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8326925D2A89506300DFB079 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		832128422A8707F20068745F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		832128442A8707F20068745F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8321284B2A8708310068745F /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		832692542A8944D500DFB079 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		832692572A8949C600DFB079 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		8326925A2A894C5C00DFB079 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		8326925D2A89506300DFB079 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		832128352A8707F00068745F /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				8326925C2A89504800DFB079 /* Cells */,
+				832692592A894C3F00DFB079 /* View Models */,
+				832692562A8949B400DFB079 /* Models */,
+				832692532A8944B900DFB079 /* Services */,
 				8321284A2A87080C0068745F /* Controllers */,
 				832128362A8707F00068745F /* AppDelegate.swift */,
 				832128382A8707F00068745F /* SceneDelegate.swift */,
@@ -73,6 +85,38 @@
 				8321284B2A8708310068745F /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		832692532A8944B900DFB079 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				832692542A8944D500DFB079 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		832692562A8949B400DFB079 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				832692572A8949C600DFB079 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		832692592A894C3F00DFB079 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8326925A2A894C5C00DFB079 /* ArticleViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8326925C2A89504800DFB079 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8326925D2A89506300DFB079 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +192,11 @@
 			files = (
 				832128372A8707F00068745F /* AppDelegate.swift in Sources */,
 				8321284C2A8708310068745F /* NewsListTableViewController.swift in Sources */,
+				832692552A8944D500DFB079 /* Webservice.swift in Sources */,
+				8326925B2A894C5C00DFB079 /* ArticleViewModel.swift in Sources */,
 				832128392A8707F00068745F /* SceneDelegate.swift in Sources */,
+				8326925E2A89506300DFB079 /* ArticleTableViewCell.swift in Sources */,
+				832692582A8949C600DFB079 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
